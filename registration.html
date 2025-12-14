@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>forms</title>
+</head>
+<body>
+<form action="new.html" mehod="get">
+<h1>Registration Form</h1>
+<div>
+<label for="username">Username</label>
+<input name="username" id="username" type="text">
+</div>
+<div>
+<label for="passwd">Password</label>
+<input name="passwd" id="passwd" type="passwd">
+</div>
+<div>
+<label for="email">Email</label>
+<input name="email" id="email" type="email" >
+</div>
+<div>
+<label for="dob">Date of Birth</label>
+<input name="dob" id="dob" type="date" required>
+</div>
+<div>
+<label for="age">AGE</label>
+<input name="age" id="age" type="number" required max="70" min="18">
+</div>
+<h2>Gender</h2>
+<div>
+<label for="gender">Male</label>
+<input name="gender" id="gender" type="radio" value="Male">
+</div>
+<div>
+<label for="gender">Female</label>
+<input name="food" id="gender" type="radio" value="Female">
+</div>
+<div>
+<label for="gender">Trans</label>
+<input name="food" id="gender" type="radio" value="Trans">
+</div>
+<h3>State Name</h3>
+<div>
+<select name="state" id="state">
+<option value ="WB">West Bengal</option>
+<option value ="KL">Kerala</option>
+<option value ="DL">Delhi</option>
+<option value ="KAR">Karnataka</option>
+</select>
+</div>
+<h2>Food Preference</h2>
+<div>
+<label for="food">Non-Veg</label>
+<input name="food" id="food" type="checkbox" value="Non-Veg" >
+</div>
+<div>
+<label for="food">Veg</label>
+<input name="food" id="food" type="checkbox" value="Veg" >
+</div>
+<div>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</div>
+</form>
+</body>
+</html>
